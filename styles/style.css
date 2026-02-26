@@ -19,7 +19,6 @@ html {
   display: flex;   /*личный код*/
   justify-content: center;
   align-items: center;
-  inline-size: 1200px;
 }
 
 h1,
@@ -58,7 +57,7 @@ ol {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    max-width: 1200px;
+    width: 1200px;
     gap: 30px;
 }
 
@@ -66,6 +65,7 @@ ol {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    flex: 0 0 711px;
 }
 
 .result__video-container {
@@ -73,7 +73,6 @@ ol {
     width: 711px;
     height: 386px;
     margin-top: 74px;
-    flex-grow: 1;
 }
 
 .result__video {
